@@ -1,0 +1,174 @@
+    * {
+        margin: 0px;
+        padding: 0px
+    }
+    
+    .reset a {
+        display: block;
+        margin-top: -19px;
+        margin-left: 11px;
+        text-decoration: none;
+        color: #cecfd3;
+        font-size: 13px;
+    }
+    
+    nav {
+        height: 80px;
+        background: #ab8de3;
+        color: #ffffff;
+        display: flex;
+    }
+    
+    nav .logo {
+        font-size: 40px;
+        font-family: poppins;
+        font-weight: bold;
+        margin-left: 30px;
+        padding-top: 8px;
+    }
+    
+    .login-area {
+        display: flex;
+        margin-left: auto;
+        margin-right: 10px;
+    }
+    
+    .login-area input {
+        height: 35px;
+        margin: 22px 10px;
+        background: #e8f0fd;
+        border: 1px solid #cecfd3;
+    }
+    
+    .login-area button {
+        width: 90px;
+        height: 40px;
+        background: transparent;
+        font-size: 20px;
+        font-weight: bold;
+        color: #77e4df;
+        border: 2px solid #f9dc8e;
+        border-radius: 32px;
+        margin: 20px 10px;
+    }
+    
+    .login-area button:focus {
+        outline: none;
+    }
+    
+    .signup-container {
+        width: 42%;
+        float: left;
+        padding-top: 50px;
+    }
+    
+    .name {
+        display: flex;
+        justify-content: center;
+        height: 41px;
+    }
+    
+    .name input {
+        background: #f5f6f8;
+        border: 1px solid #cecfd3;
+    }
+    
+    .name .inp1 {
+        margin-right: 8px;
+    }
+    
+    .signup-container .input input {
+        display: block;
+        width: 350px;
+        height: 38px;
+        margin: 10px auto;
+        background: #f5f6f8;
+        border: 1px solid #cecfd3;
+    }
+    
+    .signup-container .createAcText {
+        font-size: 30px;
+        font-weight: bold;
+        font-family: poppins;
+        margin-bottom: 5px;
+        margin-left: 20px;
+    }
+    
+    .sign-input-box {
+        padding-top: 40px;
+    }
+    
+    .quickText {
+        font-weight: 700;
+        margin-bottom: 20px;
+        color: #9cacbb;
+        margin-left: 25px;
+        font-family: sans-serif;
+    }
+    
+    hr {
+        color: #9cacbb;
+        margin: 0 15px;
+    }
+    
+    .radio-button {
+        display: flex;
+        justify-content: center;
+    }
+    
+    .radio-button button {
+        width: 90px;
+        margin-left: 10px;
+        padding: 8px 10px;
+        background: #f5f6f8;
+        border: 1px solid #cecfd3;
+    }
+    
+    .radio-button input {
+        margin-left: 3px;
+    }
+    
+    .signup-button {
+        display: flex;
+        justify-content: center;
+        margin-top: 30px;
+    }
+    
+    .signup-button button {
+        font-size: 18px;
+        font-weight: bold;
+        color: #fff;
+        font-family: poppins;
+    }
+    
+    .signup-button button {
+        width: 270px;
+        padding: 10px 0;
+        background: #00a400;
+        border: none;
+    }
+    
+    button {
+        cursor: pointer;
+    }
+    
+    input:focus,
+    button:focus {
+        outline: 1px solid #fad879;
+    }
+    
+    .first-part {
+        width: 58%;
+        float: left;
+    }
+    
+    .brand {
+        position: fixed;
+        bottom: 0;
+        background: #f1f2f6;
+        width: 100%;
+    }
+    
+    .brand p {
+        text-align: center;
+    }
